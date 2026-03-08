@@ -167,3 +167,6 @@ nginx/logs/
 nginx/*.pid
 nginx/error.log
 nginx/access.log
+
+# personal
+my-guide/
