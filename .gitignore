@@ -1,0 +1,169 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+*.log
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# Kubernetes
+*.kubeconfig
+kubeconfig
+.kube/
+k8s-secrets.yaml
+*-secret.yaml
+helm-values-override.yaml
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Ansible
+*.retry
+.vault_pass
+vault_password
+inventory/hosts.ini
+group_vars/vault.yml
+host_vars/*/vault.yml
+
+# Jenkins
+.jenkins/
+*.hpi
+work/
+jobs/
+
+# ClaudeCode
+claude/
+.claude/
+claude.log
+claude-*.log
+*.claude
+
+# Security & secrets
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+id_rsa
+id_rsa.pub
+*.asc
+.secrets/
+secrets.yml
+credentials.yml
+.password
+.token
+
+# Trivy
+.trivyignore
+trivy-report.json
+trivy-report.html
+
+# SonarQube
+.sonar/
+.scannerwork/
+
+# Grafana
+grafana.db
+
+# Prometheus
+prometheus.yml.local
+data/
+
+# ELK Stack
+logstash.conf.local
+elasticsearch/data/
+kibana.yml.local
+
+# MySQL
+*.sql
+*.sqlite
+*.db
+mysql-data/
+
+# Logs
+logs/
+*.log
+log/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+.temp/
+
+# CI/CD
+.gitlab-ci-local/
+.github-local/
+
+# Nginx
+nginx/logs/
+nginx/*.pid
+nginx/error.log
+nginx/access.log
