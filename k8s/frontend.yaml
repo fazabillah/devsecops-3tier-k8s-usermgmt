@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: fazabillah/frontend:v1
+        image: fazabillah/frontend:latest
         ports:
         - containerPort: 80
         resources:
