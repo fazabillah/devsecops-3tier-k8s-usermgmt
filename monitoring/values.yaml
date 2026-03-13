@@ -1,0 +1,19 @@
+grafana:
+  adminPassword: admin123
+  service:
+    type: LoadBalancer
+
+prometheus:
+  prometheusSpec:
+    retention: 7d
+    storageSpec:
+      volumeClaimTemplate:
+        spec:
+          storageClassName: ebs-sc
+          accessModes: ["ReadWriteOnce"]
+          resources:
+            requests:
+              storage: 5Gi
+
+alertmanager:
+  enabled: false   # Not used in this project
