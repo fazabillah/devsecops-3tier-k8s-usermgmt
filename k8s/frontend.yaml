@@ -21,6 +21,7 @@ spec:
       containers:
       - name: frontend
         image: fazabillah/frontend:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
         resources:
